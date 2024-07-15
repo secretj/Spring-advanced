@@ -2,6 +2,11 @@ package hello.advanced.trace.threadlocal.code;
 
 import lombok.extern.slf4j.Slf4j;
 
+/**
+ * 여러 쓰레드가 하나의 인스턴스를 참조하게 되면
+ * 동시성 문제가 발생할 수 있다.
+ * 동시에 호출하면 어떤 쓰레드에서 가지고 있는 값인지 구분을 할 수가 없다.
+ */
 @Slf4j
 public class FieldService {
 
