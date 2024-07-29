@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+// 인터페이스가 있는 구체 클래스
 @Slf4j
 @RequestMapping
 @ResponseBody
